@@ -5,7 +5,7 @@ import { HomePage } from "@/components/home-page";
 export default function LocationPage() {
   const locationHeroImage = {
     slot: "location4-hero",
-    src: "/images/looe-hero-country-road.jpg",
+    src: "/images/looe-hero-country-road.jpeg",
     alt: "Modern hatchback crossing a rural bridge near Sturminster Newton beside open meadows",
   };
 

@@ -18,51 +18,51 @@ const mainLocationMetadata: LocationMetadata = {
   href: "/",
   county: "Dorset",
   region: "South West England",
-  population: "21372",
+  population: "21366",
 };
 
 const LOCATION_METADATA: LocationMetadata[] = [
-  {
-    label: "Weymouth",
-    href: `/${slugifyLocation("Weymouth")}`,
-    county: "Dorset",
-    region: "South West England",
-    population: "53196",
-  },
   {
     label: "Bridport",
     href: `/${slugifyLocation("Bridport")}`,
     county: "Dorset",
     region: "South West England",
-    population: "13683",
+    population: "8621",
   },
   {
-    label: "Wareham",
-    href: `/${slugifyLocation("Wareham")}`,
+    label: "Weymouth",
+    href: `/${slugifyLocation("Weymouth")}`,
     county: "Dorset",
     region: "South West England",
-    population: "8047",
-  },
-  {
-    label: "Sturminster Newton",
-    href: `/${slugifyLocation("Sturminster Newton")}`,
-    county: "Dorset",
-    region: "South West England",
-    population: "4879",
-  },
-  {
-    label: "Sherborne",
-    href: `/${slugifyLocation("Sherborne")}`,
-    county: "Dorset",
-    region: "South West England",
-    population: "9958",
+    population: "53106",
   },
   {
     label: "Blandford Forum",
     href: `/${slugifyLocation("Blandford Forum")}`,
     county: "Dorset",
     region: "South West England",
-    population: "10700",
+    population: "10520",
+  },
+  {
+    label: "Sherborne",
+    href: `/${slugifyLocation("Sherborne")}`,
+    county: "Dorset",
+    region: "South West England",
+    population: "9956",
+  },
+  {
+    label: "Wareham",
+    href: `/${slugifyLocation("Wareham")}`,
+    county: "Dorset",
+    region: "South West England",
+    population: "5747",
+  },
+  {
+    label: "Wimborne Minster",
+    href: `/${slugifyLocation("Wimborne Minster")}`,
+    county: "Dorset",
+    region: "South West England",
+    population: "14916",
   },
 ];
 
@@ -83,3 +83,10 @@ export const locationSlugEntries = LOCATION_METADATA.map(({ label }, index) => (
   label,
   slug: slugifyLocation(label),
 }));
+
+export const mainLocationMetadata = {
+  name: mainLocationName,
+  county: 'Dorset',
+  region: 'South West England',
+  population: '21366',
+}

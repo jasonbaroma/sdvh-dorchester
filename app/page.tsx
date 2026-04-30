@@ -6,36 +6,36 @@ export default function Home() {
   const homepageHeroImage = {
     slot: "homepage-hero",
     src: "/images/homepage-hero-country-road.jpeg",
-    alt: "Modern hire car on a tree-lined country road in Dorset under soft morning light",
+    alt: "Hire car on a tree-lined rural Dorset road near Dorchester in warm afternoon light",
   };
 
   return (
     <HomePage
       heroImage={homepageHeroImage.src}
       heroImageAlt={homepageHeroImage.alt}
-      heroTitle="Vehicle Hire Dorchester"
-      heroDescription="Vehicle Hire Dorchester for cars, vans, minibuses and trucks. Flexible self-drive rental for local journeys, business use, home moves and longer UK travel."
-      serviceAreasTitle="Vehicle hire across Dorchester and nearby areas"
-      serviceAreasDescription="We provide vehicle hire across Dorchester and nearby Dorset towns, with practical support for local journeys, one-way trips, business use and longer-distance travel."
-      infoContentSectionKicker="Local hire guidance"
-      infoContentSectionTitle="Practical vehicle hire advice for Dorchester journeys"
-      infoContentSectionIntro="Hiring a vehicle in Dorchester often comes down to practicality. Local residents, businesses and visitors use self-drive hire for everything from temporary transport and weekend travel to removals, event trips and commercial jobs across Dorset."
-      infoContentBlock1Title="Getting around Dorchester and beyond"
-      infoContentBlock1Body="Dorchester sits well for journeys across Dorset, whether you are heading towards Weymouth, Bridport, Blandford Forum or the A35 corridor. Hiring locally can be a practical way to handle short-term transport needs without committing to a long-term vehicle."
-      infoContentBlock2Title="Useful hire for moving and carrying"
-      infoContentBlock2Body="For house moves, furniture collection or business deliveries, having the right size vehicle makes a noticeable difference on rural and town routes alike. Delivery and collection can also save time if you are planning around work, property access or a moving day schedule."
-      infoContentBlock3Title="Planning for leisure and longer routes"
-      infoContentBlock3Body="Dorchester is also a sensible starting point for coastal trips, group travel and longer drives into the South West. Whether you need a family car, a minibus for shared travel or a truck for heavier work, choosing the right vehicle early helps keep plans simple."
-      bottomCtaTitle="Book the right vehicle for your journey"
-      bottomCtaDescription="Tell us what you need to move, carry or plan for, and we will help match you with a suitable vehicle and hire arrangement."
-      secondaryCtaTitle="Talk through your hire options"
-      secondaryCtaDescription="Speak to our team if you want help choosing between car, van, minibus or truck hire in Dorchester and the surrounding area."
+      heroTitle="Vehicle Hire in Dorchester"
+      heroDescription="Vehicle Hire Dorchester for cars, vans, minibuses and trucks, with practical booking support for personal trips, business use, moving days and longer-distance travel."
+      serviceAreasTitle="Vehicle hire across Dorchester and nearby Dorset"
+      serviceAreasDescription="From Dorchester we support vehicle hire across nearby Dorset towns and villages, with options for local trips, longer UK travel, business transport and one-way journeys."
+      infoContentSectionKicker="Local hire advice"
+      infoContentSectionTitle="What to consider when hiring a vehicle in Dorchester"
+      infoContentSectionIntro="Hiring a vehicle in Dorchester is often about convenience as much as transport. With busy town streets, surrounding rural roads and strong links to the wider county, the right vehicle can make moving goods, organising group travel or covering a temporary driving need far easier."
+      infoContentBlock1Title="Using Dorchester as a practical base"
+      infoContentBlock1Body="Dorchester sits on useful routes for travel across Dorset, with the A35 linking west towards Bridport and east towards Poole and Bournemouth, while the A37 gives a direct run north. Hiring locally works well whether you are heading into town, out to surrounding villages or across the county for work."
+      infoContentBlock2Title="Making local jobs simpler"
+      infoContentBlock2Body="A hire vehicle can make awkward local jobs much easier, especially when collecting furniture, handling a move or covering temporary business transport. Delivery and collection can save time if you are based near Poundbury, Fordington or on nearby industrial and trade premises."
+      infoContentBlock3Title="Planning beyond the town"
+      infoContentBlock3Body="Dorchester is also a sensible starting point for leisure travel, from family outings to the Jurassic Coast to group transport for events and weekends away. If you need extra seats, more luggage room or a vehicle suited to a longer route, booking the right type in advance keeps the journey straightforward."
+      bottomCtaTitle="Book the right vehicle for Dorchester"
+      bottomCtaDescription="Tell us what you need to move, carry or plan, and we will help match the right vehicle for the job in Dorchester and beyond."
+      secondaryCtaTitle="Need help choosing a vehicle?"
+      secondaryCtaDescription="Need something specific for a move, work run or family journey? Speak to us and we will help match the right vehicle for Dorchester and beyond."
       faqs={[
-        { question: "What types of vehicles can I hire?", answer: "We offer car hire, van hire, minibus hire and truck hire, with options suited to personal travel, business use, moving jobs and longer distance driving." },
-        { question: "Do you offer delivery and collection?", answer: "Yes, free delivery and collection is available in many areas we cover. Availability depends on the vehicle, timing and location, so it is best to ask when booking." },
-        { question: "Can I arrange a one-way rental?", answer: "One-way hire is available on selected bookings. If you need to finish your rental in a different place, we can advise on availability and the best way to arrange it." },
-        { question: "Can I take a hire vehicle to Europe?", answer: "Yes, some vehicles can be prepared for European travel when agreed in advance. We will confirm whether your chosen vehicle is suitable and what paperwork is required." },
-        { question: "What do I need to hire a vehicle?", answer: "You will usually need a valid driving licence and to meet the insurer's hire requirements. For some vehicles or drivers, we may also need additional identification or licence information." },
+        { question: "What kinds of vehicles can I hire in Dorchester?", answer: "We provide car hire, van hire, minibus hire and truck hire, so you can book for everyday driving, house moves, group travel or heavier transport work." },
+        { question: "Do you offer delivery and collection around Dorchester?", answer: "Yes, delivery and collection can often be arranged, which is useful if you want the vehicle brought to your home, workplace or another practical local point." },
+        { question: "Can I arrange a one-way vehicle hire?", answer: "Many hires can be arranged as one-way bookings, subject to vehicle type and route. It is best to ask when booking so availability can be confirmed." },
+        { question: "Can I take a hire vehicle from Dorchester into Europe?", answer: "Some vehicles are available for European travel by prior agreement. Let us know your destination early so the correct vehicle and documents can be prepared." },
+        { question: "What do I need to hire a vehicle?", answer: "You will need a valid driving licence, and the exact requirements may vary by vehicle category. We will confirm what is needed before your hire starts." },
       ]}
     />
   );

@@ -6,37 +6,37 @@ export default function LocationPage() {
   const locationHeroImage = {
     slot: "location2-hero",
     src: "/images/liskeard-hero-country-road.jpeg",
-    alt: "White hire van parked safely on a quiet country lane near Bridport surrounded by hedgerows and fields",
+    alt: "Rental van near Weymouth waterfront with harbour buildings and boats in the distance",
   };
 
   return (
     <HomePage
-      currentLocationLabel="Bridport"
+      currentLocationLabel="Weymouth"
       heroImage={locationHeroImage.src}
       heroImageAlt={locationHeroImage.alt}
-      heroTitle="Vehicle Hire Bridport"
-      heroDescription="Vehicle Hire Bridport for coastal travel, local moves, business use and group journeys. Self-drive cars, vans, minibuses and trucks arranged to suit your plans."
-      serviceAreasTitle="Bridport coverage and surrounding routes"
-      serviceAreasDescription="Our coverage includes Bridport and nearby coastal and inland communities, making it easier to arrange hire for everyday travel, deliveries, moves and shared trips."
-      infoContentSectionKicker="Planning your hire"
-      infoContentSectionTitle="Vehicle hire that suits the way Bridport journeys work"
-      infoContentSectionIntro="Bridport has a different travel rhythm from larger inland towns. People hire here for weekend breaks, family visits, carrying jobs and work journeys that often involve a mix of coast, countryside and market-town driving."
-      infoContentBlock1Title="Helpful for coast and market-town travel"
-      infoContentBlock1Body="Bridport is a practical place to hire when your plans include local driving as well as routes out towards Lyme Regis, Dorchester or the wider coast. A hire car can be especially useful when public transport does not line up with your timing."
-      infoContentBlock2Title="Practical carrying space when you need it"
-      infoContentBlock2Body="Van hire is often the straightforward answer for moving furniture, collecting stock or handling equipment for local jobs. Around Bridport, where journeys can mix town access with rural roads, a vehicle that matches the load matters more than sheer size."
-      infoContentBlock3Title="Group transport for coastal plans"
-      infoContentBlock3Body="For walking groups, family breaks or event travel along the coast, a minibus can keep the journey organised. Instead of arranging several cars, one booking can make arrival times, parking and luggage handling much easier."
-      bottomCtaTitle="Plan your Bridport vehicle hire"
-      bottomCtaDescription="From local jobs to longer runs out of Dorset, we can help arrange a suitable Bridport hire for work, leisure or practical transport needs."
-      secondaryCtaTitle="Compare the right options"
-      secondaryCtaDescription="Whether you need extra seats, more load space or a simple car for local travel, we will point you towards a practical option for Bridport."
+      heroTitle="Vehicle Hire Weymouth"
+      heroDescription="Looking for straightforward vehicle hire in Weymouth? We offer cars, vans, minibuses and trucks for seafront stays, local errands, moving days and business travel."
+      serviceAreasTitle="Vehicle hire across Weymouth and the coast"
+      serviceAreasDescription="We cover Weymouth and the surrounding coastal area, helping customers arrange hire for local travel, holiday logistics, work use and inland routes across Dorset."
+      infoContentSectionKicker="Local hire guidance"
+      infoContentSectionTitle="Practical vehicle hire in Weymouth for coast, family and business use"
+      infoContentSectionIntro="Weymouth is a practical place to arrange vehicle hire when you need extra space, extra seats or a dependable work vehicle close to town. With regular local traffic around the seafront, Radipole and the A354, having the right car, van, minibus or truck can make coastal trips, home moves, deliveries and business journeys far easier to manage."
+      infoContentBlock1Title="A strong base for working routes"
+      infoContentBlock1Body="Blandford Forum sits on the A350, giving direct access towards Poole and Shaftesbury, while the A354 helps with routes towards Salisbury and the south of the county. That makes local hire a practical option for trade work, site visits and planned collections where timing matters."
+      infoContentBlock2Title="Useful for rural and trade jobs"
+      infoContentBlock2Body="For van and truck users, Blandford Forum is well suited to loads moving between rural properties, local businesses and nearby market towns. Wider roads around the town help, but if you are heading into smaller villages or farm access points, choosing the right vehicle size can save time and hassle."
+      infoContentBlock3Title="Planning longer drives from town"
+      infoContentBlock3Body="Fuel and everyday travel stops are straightforward around Blandford Forum, especially on the main route corridors. If you are booking for longer distances, it is worth planning ahead for breaks before heading further into Dorset’s more rural stretches where services are more spread out."
+      bottomCtaTitle="Arrange your Weymouth hire"
+      bottomCtaDescription="Get the right vehicle hire in Weymouth for seafront travel, family trips, business use, removals and wider journeys across Dorset and beyond."
+      secondaryCtaTitle="Talk through your Weymouth booking"
+      secondaryCtaDescription="Tell us what you need in Weymouth and we will help match you with a suitable rental vehicle for the journey, job or event ahead."
       faqs={[
-        { question: "What can I hire in Bridport?", answer: "Yes, customers in Bridport can book cars, vans, minibuses and trucks, depending on what suits the journey and current vehicle availability." },
-        { question: "Can you deliver a vehicle to Bridport?", answer: "Bridport and the surrounding area can often be covered by our delivery and collection service. Let us know your address and preferred times when booking." },
-        { question: "Is minibus hire available for group trips from Bridport?", answer: "Minibus hire is often useful for family outings, coastal day trips and event travel where keeping everyone together is easier than using several cars." },
-        { question: "Can I take a Bridport hire vehicle abroad?", answer: "Some vehicles can be approved for European travel when arranged in advance. We can confirm suitability, cover and paperwork before the hire starts." },
-        { question: "What documents do I need for hire in Bridport?", answer: "A full valid driving licence is normally required, along with any supporting ID or checks needed by the insurer. Requirements can vary by vehicle type." },
+        { question: "Can I book a rental vehicle quickly in Weymouth?", answer: "Yes. We can often help with short-notice vehicle hire in Weymouth, depending on availability and the type of vehicle required." },
+        { question: "Are longer trips from Weymouth possible with your hire vehicles?", answer: "Yes, many Weymouth hires can include options for longer mileage or extended travel plans. Availability depends on the vehicle and hire details." },
+        { question: "Do you provide van hire in Weymouth for moving furniture or equipment?", answer: "Many hires can be used for travel across Dorset and further afield in the UK. If you need a one-way booking, ask in advance so we can check the route." },
+        { question: "Can I hire a minibus in Weymouth for group travel?", answer: "Some bookings can include European travel, but this must be agreed before departure so the vehicle and paperwork can be set up correctly." },
+        { question: "Is one-way hire available from Weymouth?", answer: "You will need a valid licence, and the exact checks depend on the vehicle you choose. We will confirm the details during the booking process." },
       ]}
     />
   );

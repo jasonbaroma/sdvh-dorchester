@@ -6,37 +6,37 @@ export default function LocationPage() {
   const locationHeroImage = {
     slot: "location1-hero",
     src: "/images/torpoint-hero-country-road.jpeg",
-    alt: "Compact hire car travelling on a road toward a coastal Weymouth-style harbour setting",
+    alt: "Modern rental van on a quiet rural lane near Bridport surrounded by Dorset farmland",
   };
 
   return (
     <HomePage
-      currentLocationLabel="Weymouth"
+      currentLocationLabel="Bridport"
       heroImage={locationHeroImage.src}
       heroImageAlt={locationHeroImage.alt}
-      heroTitle="Vehicle Hire Sherborne"
-      heroDescription="Vehicle Hire Sherborne for local travel, family journeys, moving jobs and commercial use. Choose from cars, vans, minibuses and trucks with practical booking support."
-      serviceAreasTitle="Serving Sherborne and nearby areas"
-      serviceAreasDescription="We support hires in Sherborne and surrounding villages, with flexible options for local driving, cross-county trips, removals and commercial transport."
-      infoContentSectionKicker="Useful hire guidance"
-      infoContentSectionTitle="How vehicle hire works well in Sherborne"
-      infoContentSectionIntro="Sherborne combines day-to-day local travel with regular journeys out towards Yeovil, Dorchester and the wider rural area. That makes vehicle hire a practical option for residents, visitors and businesses who need extra flexibility without owning a larger vehicle full time."
-      infoContentBlock1Title="Travel that fits around daily plans"
-      infoContentBlock1Body="Sherborne is well placed for journeys into both Dorset and Somerset, so hire is often used for flexible day trips, family visits and temporary replacement transport. A suitable car can make local and cross-county travel much easier to manage."
-      infoContentBlock2Title="A sensible base for van hire"
-      infoContentBlock2Body="With its mix of town streets, surrounding villages and residential moves, Sherborne often sees demand for vans that can handle furniture, boxes and trade equipment without needing multiple trips. Picking the right van size helps keep the day on schedule."
-      infoContentBlock3Title="Shared travel made simpler"
-      infoContentBlock3Body="Group travel is another common reason to hire around Sherborne, especially for events, family gatherings and shared weekend plans. A minibus gives everyone one vehicle to work around instead of trying to coordinate separate cars."
-      bottomCtaTitle="Arrange your Sherborne hire"
-      bottomCtaDescription="If you need a vehicle in Sherborne for travel, transport or a planned move, we can help you arrange a suitable hire with clear booking support."
-      secondaryCtaTitle="Need help picking a vehicle?"
-      secondaryCtaDescription="Speak to our team if you want help choosing between a car, van, minibus or truck for your Sherborne journey."
+      heroTitle="Vehicle Hire Bridport"
+      heroDescription="Need dependable vehicle hire in Bridport? We supply cars, vans, minibuses and trucks for everyday travel, coastal routes, business jobs and planned moves."
+      serviceAreasTitle="Serving Bridport and nearby West Dorset areas"
+      serviceAreasDescription="Our Bridport coverage includes the town itself and surrounding West Dorset routes, making it easy to arrange hire for local driving, coastal journeys and nearby villages."
+      infoContentSectionKicker="Planning your hire"
+      infoContentSectionTitle="Hiring a vehicle in Bridport for coast, work and everyday trips"
+      infoContentSectionIntro="Bridport is well placed for practical vehicle hire, whether you are moving between town and surrounding villages, collecting bulky items, heading along the A35, or organising group travel toward West Bay and the wider Dorset coast. A flexible rental helps when your own vehicle is too small, unavailable, or simply not the right fit for the job."
+      infoContentBlock1Title="Road links around Wareham"
+      infoContentBlock1Body="Wareham is well placed for local and cross-county travel, with the A351 running towards Poole and Swanage and the A352 linking back towards Dorchester. That makes it a useful pickup point if you need a car for day trips, a van for collections or a larger vehicle for planned routes across Purbeck."
+      infoContentBlock2Title="Fuel stops and busy periods"
+      infoContentBlock2Body="If you are setting off from Wareham, you will find fuel options on the main routes out of town and wider services as you head towards Poole. For longer runs, it is worth planning around seasonal traffic, especially in summer when routes towards Corfe Castle and Swanage can get busy."
+      infoContentBlock3Title="Choosing the right vehicle for Purbeck travel"
+      infoContentBlock3Body="Wareham hires often suit a mix of practical and leisure use. Some customers need a van for household jobs or storage moves, while others book cars or minibuses for access to Studland, Swanage or walking routes across the Isle of Purbeck. Choosing the right size early helps on narrower local roads and village parking spots."
+      bottomCtaTitle="Book vehicle hire in Bridport"
+      bottomCtaDescription="Speak to our team for practical vehicle hire in Bridport, with flexible rental options for local trips, coastal journeys, business use and moving jobs."
+      secondaryCtaTitle="Need advice before you book in Bridport?"
+      secondaryCtaDescription="If you are comparing options for Bridport, we can help you choose a suitable car, van, minibus or truck without overcomplicating the booking."
       faqs={[
-        { question: "Can I book more than just cars in Sherborne?", answer: "Yes, we can support customers in Sherborne with a wide range of self-drive vehicles, including cars, vans, minibuses and trucks, subject to availability and booking details." },
-        { question: "Do you deliver hire vehicles to Sherborne?", answer: "Delivery may be available in and around Sherborne depending on the vehicle and timing of your booking. Ask when you enquire and we will confirm the practical options." },
-        { question: "Is van hire useful for moving in Sherborne?", answer: "Many customers use van hire for moves, furniture collection and business carrying jobs. We can help you choose a size that suits the load and the route." },
-        { question: "Can I start in Sherborne and return elsewhere?", answer: "Yes, one-way hire can often be arranged if you need to finish your journey elsewhere. This is useful for longer relocations or trips that do not naturally return to Sherborne." },
-        { question: "What is needed to hire a vehicle in Sherborne?", answer: "You will usually need a full valid driving licence and to meet the insurer's criteria. Some hires may also require extra ID or licence checks before collection or delivery." },
+        { question: "Can I arrange vehicle hire in Bridport at short notice?", answer: "Yes. We can arrange vehicle hire for Bridport customers, subject to vehicle availability, driver checks and the type of hire you need." },
+        { question: "Is one-way vehicle hire available from Bridport?", answer: "Yes, one-way hire can often be arranged for Bridport bookings depending on the vehicle category, route and return location." },
+        { question: "Do you offer mileage options for longer journeys from Bridport?", answer: "Many hires from Bridport can include mileage terms suited to longer trips. It depends on the vehicle and booking details, so ask when you enquire." },
+        { question: "What kinds of vehicles can I hire in Bridport?", answer: "That depends on the vehicle type and your plans. If you need to travel beyond the UK, ask before booking so we can confirm what is possible." },
+        { question: "Can I hire a vehicle in Bridport for a house move or delivery run?", answer: "A valid driving licence is required, and some hires may need extra checks depending on the vehicle category. We will explain everything clearly before confirmation." },
       ]}
     />
   );

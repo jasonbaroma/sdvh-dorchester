@@ -5,8 +5,8 @@ import "./globals.css";
 
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
-  title: "Vehicle Hire Dorchester | Cars, Vans, Minibuses & Trucks",
-  description: "Vehicle Hire Dorchester with cars, vans, minibuses and trucks available across Dorset. Flexible booking, delivery options and practical rental support.",
+  title: "Vehicle Hire Barnstaple | Cars, Vans, Minibuses & Trucks",
+  description: "Vehicle hire in Barnstaple for cars, vans, minibuses and trucks. Practical self-drive options with flexible booking, local support and wide area coverage.",
   alternates: {
     canonical: "/",
   },
